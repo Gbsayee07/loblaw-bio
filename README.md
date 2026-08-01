@@ -28,6 +28,7 @@ above, which is how it will be started for grading.
 ```
 .
 ├── cell-count.csv                  # source data
+├── cell_counts.db                  # generated SQLite database (output of load_data.py)
 ├── load_data.py                    # Part 1: builds cell_counts.db from the CSV
 ├── pipeline.py                     # orchestrates load_data.py + Parts 2-4
 ├── src/
