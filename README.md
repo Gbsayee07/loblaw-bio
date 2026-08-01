@@ -16,9 +16,12 @@ make dashboard   # launch the interactive dashboard
 `make dashboard` starts Streamlit on port 8501. In Codespaces, use the
 "Ports" tab to open the forwarded port in your browser.
 
-**Dashboard link:** _add your deployed Streamlit URL here (e.g. Streamlit
-Community Cloud) once deployed, or note that it runs locally via `make
-dashboard` in Codespaces._
+**Dashboard link:** https://loblaw-bio-nqzrgrjebkz4juchvzb9rt.streamlit.app/
+
+The deployed app reads from `cell_counts.db`, which is committed to this
+repository, so it's live with data immediately (no setup needed to view it).
+It can also be run locally or in Codespaces via `make dashboard` as shown
+above, which is how it will be started for grading.
 
 ## Repository layout
 
